@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+    h3 {
+        @apply text-lg;
+    }
+
+    a {
+        @apply text-blue-600 underline;
+    }
+
+    .text-content-head {
+        @apply text-slate-700 text-[15px] font-[600];
+    }
+
+    .text-content-main {
+        @apply text-slate-500 text-[15px];
+    }
+}
+
+@tailwind components;
+
+@tailwind utilities;
